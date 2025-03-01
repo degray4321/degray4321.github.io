@@ -1,0 +1,679 @@
+a:link,
+a:visited,
+a:active {
+    color: #662e1d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ae4a3b;
+    text-decoration: none;
+}
+
+.regular_menu_items li {
+	font-size: 1.3em;
+}
+
+.regular_menu_items li:hover {
+}
+
+
+.regular_menu_items .not-active {
+	font-weight: 500 !important;
+}
+
+.regular_menu_items a {
+/*	font-weight: bold !important; */
+}
+
+.regular_menu_items a:hover {
+	font-style: italic;
+	color: #e7874c !important;
+	border-bottom-color: #e7874c !important;
+}
+
+.mobile_menu_items a {
+	font-size: 1.3em !important;
+	line-height: 1.75 !important;
+}
+
+.mobile_menu_items a.not-active {
+}
+
+.mobile_menu_items a:hover {
+	font-style: italic;
+	color: #e7874c !important;
+	border-bottom-color: #e7874c !important;
+}
+
+
+/* General text throughout */
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	
+	font-family: garamond-premier-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'onum';
+	-o-font-feature-settings: 'liga', 'kern', 'onum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum';
+	font-feature-settings: 'liga', 'kern', 'onum';
+	
+	color: #414141
+}
+
+/* Text for the main title, which is my name */
+
+h1.my_name {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 700;
+	font-style: normal;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'onum';
+	-o-font-feature-settings: 'liga', 'kern', 'onum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum';
+	font-feature-settings: 'liga', 'kern', 'onum';
+
+	color: #ffffff;
+	
+	font-size: 2.5em;
+}
+@media screen and (max-width: 29.9375em) {
+	h1.my_name {
+		font-size: 2.4em;
+	}
+}
+@media screen and (min-width: 768px) {
+	h1.my_name {
+		font-size: 2.8em;
+	}
+}
+@media screen and (min-width: 992px) {
+	h1.my_name {
+		font-size: 3.4em;
+	}
+}
+
+/* Text for the main subtitle, which is my title */
+
+.my_job_title {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+	font-family: oswald, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'onum';
+	-o-font-feature-settings: 'liga', 'kern', 'onum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum';
+	font-feature-settings: 'liga', 'kern', 'onum';
+
+	color: #ffffff;
+	
+	text-transform: uppercase;
+	letter-spacing: 0.035em;
+	
+	font-size: 0.85em;
+	line-height: 0.7em;
+}
+@media screen and (max-width: 29.9375em) {
+	.my_job_title {
+		font-size: 0.8em;
+		line-height: 0.6em;
+		letter-spacing: 0.045em;
+	}
+}
+@media screen and (min-width: 768px) {
+	.my_job_title {
+		font-size: 1em;
+		line-height: 0.65em;
+		letter-spacing: 0.03em;
+	}
+}
+@media screen and (min-width: 992px) {
+	.my_job_title {
+		font-size: 1.2em;
+		line-height: 0.75em;
+		letter-spacing: 0.027em;
+	}
+}
+
+/* This is the text for section headings */
+
+h1.section_title {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	
+	font-family: oswald, san-serif;
+	font-weight: 300;
+	font-style: normal;
+
+	-moz-font-feature-settings: 'liga', 'kern', 'lnum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'lnum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'lnum';
+	-o-font-feature-settings: 'liga', 'kern', 'lnum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'lnum';
+	font-feature-settings: 'liga', 'kern', 'lnum';
+
+	text-transform: uppercase;
+	letter-spacing: 0.005em;
+	
+	font-size: 1.7em;
+}
+@media screen and (max-width: 29.9375em) {
+	h1.section_title {
+		font-size: 1.65em;
+	}
+}
+@media screen and (min-width: 768px) {
+	h1.section_title {
+		font-size: 1.95em;
+	}
+}
+@media screen and (min-width: 992px) {
+	h1.section_title {
+		font-size: 2.25em;
+	}
+}
+
+/* This is the body text for the "about me" or Welcome section */
+
+.body_text {
+	font-size: 1.25em !important;
+	line-height: 1.5 !important;
+}
+
+/* This is the course title and course number (separate subtitles, of sorts, for the course page) */
+
+.course-title,
+.course-number {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+	font-family: oswald, sans-serif;
+	-moz-font-feature-settings: 'liga', 'kern', 'lnum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'lnum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'lnum';
+	-o-font-feature-settings: 'liga', 'kern', 'lnum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'lnum';
+	font-feature-settings: 'liga', 'kern', 'lnum';
+	
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+}
+.course-title {
+	font-size: 1.6em !important;
+	font-weight: 400;
+}
+.course-title a {
+	color: #ae4a3b;
+}
+.course-title a:hover {
+	color: #e7874c;
+}
+.course-number {
+	color: #b8b8b8;
+	font-weight: 400;
+	font-size: 1.05em;
+	line-height: 1.7;
+}
+
+/* The stuff for displaying the syllabus covers/books in the course list */
+
+ul.syllabus-covers {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+.syllabus-covers li {
+	float: left;
+    margin: 0 !important;
+    padding: 0.75em !important;
+	width: 32%;
+}
+@media screen and (max-width: 29.9375em) {
+	.syllabus-covers li {
+/*		width: 49%;  */
+	}
+}
+@media screen and (min-width: 768px) {
+	.syllabus-covers li {
+/*		width: 24%; */
+	}
+}
+.syllabus-covers li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+	color: rgba(0,0,0,0);
+}
+@media screen and (max-width: 768px) {
+	.syllabus-covers li a {
+		color: #c8c8c8;
+	}
+}
+.syllabus-covers li a:hover {
+	color: #c8c8c8;
+}
+.syllabus-covers img:hover {
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
+}
+
+.syllabus-covers h3 {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	
+	font-family: oswald, san-serif !important;
+	font-weight: 700;
+	font-style: normal;
+
+	-moz-font-feature-settings: 'liga', 'kern', 'lnum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'lnum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'lnum';
+	-o-font-feature-settings: 'liga', 'kern', 'lnum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'lnum';
+	font-feature-settings: 'liga', 'kern', 'lnum';
+
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	
+	font-size: 0.7em;
+}
+
+h3.course_name {
+	padding-bottom: 1.2em;
+	display:none;
+}
+
+h3.term {
+	margin-top: -1.5em;
+}
+
+h3.course_name,
+h3.term {
+	line-height: 1.3;
+}
+
+.archive_section {
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	-ms-flex-align: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+	-ms-flex-pack: center;
+	position: relative;
+	color: white;
+	text-align: center;
+}
+@-moz-document url-prefix() {
+  .archive_section {
+    display: block;
+  }
+}
+
+
+
+/* Stuff for the Circle in the course listings */
+
+/* The spot in the list where the circle will go */
+.circle-wrap {
+    position: relative;
+    height: 0;
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 7% !important;
+    padding-top: 100% !important;
+}
+
+/* The circle itself */
+.circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ae4a3b;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Some magic rendering for the circle */
+.circle::before,
+.circle::after {
+	content: ' ';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 1px;
+}
+
+/* The wrap for the text that goes inside the circle */
+.circle .text-wrap {
+	display: inline-block;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+/* Paragraph text within the circle (currently just a blank line) */
+.circle p {
+  font-size: 1.15em !important;
+  margin-bottom: 0.7em !important;
+}
+
+/* h1 text within the circle (the name of the university) */
+.circle h1 {
+	margin-bottom: 0.05em !important;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 400;
+	font-style: italic;
+
+	-moz-font-feature-settings: 'liga', 'kern', 'lnum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'lnum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'lnum';
+	-o-font-feature-settings: 'liga', 'kern', 'lnum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'lnum';
+	font-feature-settings: 'liga', 'kern', 'lnum';
+	
+	font-size: 3em !important;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 29.9375em) {
+	.circle h1 {
+		margin-bottom: 0.05em !important;
+		font-size: 3em !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	.circle h1 {
+		margin-bottom: 0.01em !important;
+		font-size: 3.1em !important;
+	}
+}
+@media screen and (min-width: 992px) {
+	.circle h1 {
+		margin-bottom: 0.02em !important;
+		font-size: 4em !important;
+	}
+}
+
+/* address text within the circle (the location of the university) */
+.circle address {
+	border-bottom: 1px solid;
+	display: inline-block;
+	margin-top: 1.1em !important;
+	margin-bottom: 0.5em !important;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	
+	font-family: oswald, san-serif;
+	font-weight: 700;
+	font-style: normal;
+
+	-moz-font-feature-settings: 'liga', 'kern', 'lnum';
+	-moz-font-feature-settings: 'liga=1, kern=1', 'lnum=1';
+	-ms-font-feature-settings: 'liga', 'kern', 'lnum';
+	-o-font-feature-settings: 'liga', 'kern', 'lnum';
+	-webkit-font-feature-settings: 'liga', 'kern', 'lnum';
+	font-feature-settings: 'liga', 'kern', 'lnum';
+
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 1.6;
+	
+	font-size: 0.55em !important;  
+}
+@media screen and (max-width: 29.9375em) {
+	.circle address {
+		font-size: 0.55em !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	.circle address {
+		font-size: 0.6em !important;
+	}
+}
+@media screen and (min-width: 992px) {
+	.circle address {
+		font-size: 0.665em !important;  
+	}
+}
+
+
+@media screen and (max-width: 29.9375em) {
+  .archive_item {
+    float: left !important;
+    display: block !important;
+    margin-right: 4.34783% !important;
+    width: 48.43478% !important;
+  }
+  .archive_item:last-child {
+    margin-right: 0 !important;
+  }
+  .archive_item:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .archive_item:nth-child(2n+1) {
+    clear: left !important;
+  }
+}
+@media screen and (min-width: 30em) and (max-width: 768px) {
+  .archive_item {
+    float: left !important;
+    display: block !important;
+    margin-right: 4.34783% !important;
+    width: 32.43478% !important;
+  }
+  .archive_item:last-child {
+    margin-right: 0 !important;
+  }
+  .archive_item:nth-child(3n) {
+    margin-right: 0 !important;
+  }
+  .archive_item:nth-child(3n+1) {
+    clear: left !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .archive_item {
+    float: left !important;
+    display: block !important;
+    margin-right: 3.22581% !important;
+    width: 24.88065% !important;
+  }
+  .archive_item:last-child {
+    margin-right: 0 !important;
+  }
+  .archive_item:nth-child(4n) {
+      margin-right: 0 !important;
+  }
+  .archive_item:nth-child(4n+1) {
+    clear: left !important;
+  }
+}
+
+.footer_style {
+	padding-top: 1em !important;
+	color: white !important;
+	background-color: #662e1d !important;
+}
+
+.footer_name {
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+
+	font-family: garamond-premier-pro, serif !important;
+	font-weight: 700 !important;
+	font-style: normal !important;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1' !important;
+	-ms-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-o-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	font-feature-settings: 'liga', 'kern', 'onum' !important;
+
+	color: #ffffff !important;
+	
+	font-size: 1.5em !important;
+}
+
+.footer_title{
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+
+	font-family: oswald, sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1' !important;
+	-ms-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-o-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	font-feature-settings: 'liga', 'kern', 'onum' !important;
+
+	color: #ffffff !important;
+	
+	text-transform: uppercase !important;
+	letter-spacing: 0.03em !important;
+	
+	font-size: 0.9em !important;
+	line-height: 1.4em !important;
+}
+
+ul.social_icon_list {
+    list-style-type: none !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+.social_icon_list li {
+	float: left !important;
+    margin: 0 !important !important;
+	width: 1em !important;
+	margin-right: 0.5em !important;
+	margin-top: 0.2em !important;
+	line-height: 1em !important;
+}
+
+.social_icons {
+	width: 1em !important;
+}
+
+.social_icons svg {
+  height: 0.9em !important;
+  width: 0.9em !important;
+  fill: white !important;
+  transition: all 0.1s ease !important;
+}
+
+.social_icons:hover svg {
+  fill: #e7874c !important;
+}
+
+.mobile_footer_mailing_address,
+.footer_mailing_address {
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+
+	font-family: garamond-premier-pro, serif !important;
+	font-weight: 500 !important;
+	font-style: normal !important;
+	
+	-moz-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-moz-font-feature-settings: 'liga=1, kern=1', 'onum=1' !important;
+	-ms-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-o-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	-webkit-font-feature-settings: 'liga', 'kern', 'onum' !important;
+	font-feature-settings: 'liga', 'kern', 'onum' !important;
+
+	color: #ffffff !important;
+	
+	font-size: 1em !important;
+	line-height: 1.2 !important;
+}
+
+.address_department_name {
+	font-weight: 700;
+	font-size: 1.1em !important;
+	line-height: 1.3 !important;
+}
+
+.address_department_name a {
+	color: white;
+}
+
+.address_department_name a:hover {
+	color: #e7874c;
+}
+
+
+.address_university_name {
+}
+
+.address_university_name a {
+	color: white;
+}
+
+.address_university_name a:hover {
+	color: #e7874c;
+}
+
+
+.footer_mailing_address {
+	padding-left: 20% !important;
+}
+
+.immediate_footer{
+    min-height: 0;
+}
