@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-LightItalic.woff2') format('woff2'),
+        url('BrandonGrotesque-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-Light.woff2') format('woff2'),
+        url('BrandonGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro-Book';
+    src: url('MetaSerifPro-Book.woff2') format('woff2'),
+        url('MetaSerifPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro-BookItalic';
+    src: url('MetaSerifPro-BookItalic.woff2') format('woff2'),
+        url('MetaSerifPro-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro';
+    src: url('MetaSerifPro-Light.woff2') format('woff2'),
+        url('MetaSerifPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro';
+    src: url('MetaSerifPro-Medium.woff2') format('woff2'),
+        url('MetaSerifPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro';
+    src: url('MetaSerifPro-MediumItalic.woff2') format('woff2'),
+        url('MetaSerifPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-MediumItalic.woff2') format('woff2'),
+        url('BrandonGrotesque-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-BoldItalic.woff2') format('woff2'),
+        url('BrandonGrotesque-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MetaSerifPro';
+    src: url('MetaSerifPro-LightItalic.woff2') format('woff2'),
+        url('MetaSerifPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('BrandonGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-RegularItalic.woff2') format('woff2'),
+        url('BrandonGrotesque-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-Medium.woff2') format('woff2'),
+        url('BrandonGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

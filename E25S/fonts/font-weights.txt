@@ -1,0 +1,9 @@
+100	thin
+200	extra light
+300	light
+400	regular / book	<-- normal
+500	medium
+600	semibold
+700	bold		<-- bold
+800	extra bold	<-- bolder?
+900	black
